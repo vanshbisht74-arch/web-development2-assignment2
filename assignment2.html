@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Async Weather Tracker</title>
+<title>Weather App</title>
 <link rel="stylesheet" href="assignment2.css">
 </head>
 
 <body>
 
-<h2>Async Weather Tracker</h2>
+<h2 class="title">Weather App</h2>
 
 <div class="main">
 
-<div class="left">
+<div class="box leftBox">
 
 <h4>Search City</h4>
 
-<input type="text" id="city">
+<input type="text" id="cityInput" class="inputBox">
 
-<button onclick="searchWeather()">Search</button>
+<button class="button" onclick="searchWeather()">Search</button>
 
-<h4>Search History</h4>
+<h4>History</h4>
 
-<div id="history"></div>
+<div id="historyBox"></div>
 
 </div>
 
-<div class="right">
+<div class="box rightBox">
 
 <h4>Weather Info</h4>
 
-<p>City <span id="cityName"></span></p>
-<p>Temp <span id="temp"></span></p>
-<p>Weather <span id="weather"></span></p>
-<p>Humidity <span id="humidity"></span></p>
-<p>Wind <span id="wind"></span></p>
+<p>City: <span id="cityText"></span></p>
+<p>Temp: <span id="tempText"></span></p>
+<p>Weather: <span id="weatherText"></span></p>
+<p>Humidity: <span id="humidityText"></span></p>
+<p>Wind: <span id="windText"></span></p>
 
 </div>
 
 </div>
 
-<div class="console">
+<div class="box consoleBox">
 
-<h4>Console – Event Loop</h4>
+<h4>Console</h4>
 
-<div id="log"></div>
+<div id="logBox"></div>
 
 </div>
 
-<script src="assignment2.js
-"></script>
+<script src="assignment2.js"></script>
 
 </body>
 </html>
