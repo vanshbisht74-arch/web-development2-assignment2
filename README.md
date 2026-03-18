@@ -47,9 +47,7 @@ This project is made to understand:
 
 ---
 
-## API Used
 
-https://wttr.in/
 
 ---
 
