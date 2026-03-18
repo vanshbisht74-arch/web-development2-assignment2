@@ -59,7 +59,7 @@ try{
 
 log("fetching data")
 
-let res = await fetch("https://wttr.in/" + city + "?format=j1")
+let res = await fetch("https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=e14307b6755c3d02a88405326217198f" + city + "?format=j1")
 
 let data = await res.json()
 
